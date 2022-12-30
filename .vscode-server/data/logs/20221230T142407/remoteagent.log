@@ -39,3 +39,7 @@
     at emit (node:internal/child_process:938:14)
     at processTicksAndRejections (node:internal/process/task_queues:84:21)
 2022-12-30 14:29:18.824 [info] New EH opened, aborting shutdown
+2022-12-30 17:23:11.512 [info] [127.0.0.1][520cc343][ManagementConnection] New connection established.
+2022-12-30 17:23:11.522 [info] [127.0.0.1][97001069][ExtensionHostConnection] New connection established.
+2022-12-30 17:23:11.561 [info] [127.0.0.1][97001069][ExtensionHostConnection] <8384> Launched Extension Host Process.
+2022-12-30 17:28:11.652 [info] [127.0.0.1][0c080e55][ExtensionHostConnection] <3454> Extension Host Process exited with code: 0, signal: null.

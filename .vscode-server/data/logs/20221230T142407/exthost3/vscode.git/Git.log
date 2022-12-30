@@ -1,0 +1,53 @@
+2022-12-30 17:23:16.453 [info] Log level: Info
+2022-12-30 17:23:16.454 [info] Validating found git in: "git"
+2022-12-30 17:23:16.454 [info] Using git "2.34.1" from "git"
+2022-12-30 17:23:16.454 [info] > git rev-parse --show-toplevel [247ms]
+2022-12-30 17:23:16.454 [info] fatal: detected dubious ownership in repository at '/home/atled'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/atled
+2022-12-30 17:23:16.454 [info] > git rev-parse --show-toplevel [96ms]
+2022-12-30 17:23:16.454 [info] fatal: detected dubious ownership in repository at '/home/atled'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/atled
+2022-12-30 17:23:16.454 [info] > git rev-parse --show-toplevel [19ms]
+2022-12-30 17:23:16.454 [info] fatal: detected dubious ownership in repository at '/home/atled'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/atled
+2022-12-30 17:23:16.454 [info] > git rev-parse --show-toplevel [13ms]
+2022-12-30 17:23:16.455 [info] fatal: detected dubious ownership in repository at '/home/atled'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/atled
+2022-12-30 17:23:16.455 [info] > git rev-parse --show-toplevel [5ms]
+2022-12-30 17:23:16.455 [info] fatal: detected dubious ownership in repository at '/home/atled'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/atled
+2022-12-30 17:23:16.455 [info] > git rev-parse --show-toplevel [4ms]
+2022-12-30 17:23:16.455 [info] fatal: detected dubious ownership in repository at '/home/atled'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/atled
+2022-12-30 17:23:16.455 [info] > git rev-parse --show-toplevel [39ms]
+2022-12-30 17:23:16.455 [info] fatal: detected dubious ownership in repository at '/home/atled'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/atled
+2022-12-30 17:23:16.456 [info] > git rev-parse --show-toplevel [4ms]
+2022-12-30 17:23:16.456 [info] fatal: detected dubious ownership in repository at '/home/atled'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/atled
+2022-12-30 17:23:16.456 [info] > git rev-parse --show-toplevel [18ms]
+2022-12-30 17:23:16.456 [info] fatal: detected dubious ownership in repository at '/home/atled'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/atled
+2022-12-30 17:23:16.456 [info] > git rev-parse --show-toplevel [5ms]
+2022-12-30 17:23:16.456 [info] fatal: detected dubious ownership in repository at '/home/atled'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/atled

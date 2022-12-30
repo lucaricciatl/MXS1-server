@@ -8,3 +8,6 @@
 2022-12-30 14:24:21.549 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 2022-12-30 14:24:21.551 [info] Eager extensions activated
 2022-12-30 14:24:26.761 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:properties'
+2022-12-30 17:28:11.591 [info] Extension host terminating: renderer disconnected for too long (2)
+2022-12-30 17:28:11.597 [info] Lock '/home/atled/.vscode-server/data/User/workspaceStorage/e7448868a19cc3213279fc54d395c6a2/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2022-12-30 17:28:11.627 [info] Extension host with pid 3454 exiting with code 0

@@ -3,8 +3,8 @@ services:
   nginx:
     image: nginx:stable-alpine
     ports:
-     - 80:8081
-     - 40443:443
+     #- 80:80
+     - 4443:4443
     links:
      - wordpress
     restart: always

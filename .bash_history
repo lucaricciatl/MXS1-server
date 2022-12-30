@@ -148,3 +148,15 @@ ls
 sudo docker-compose up
 sudo docker images
 sudo reboot
+ps
+cd dockers/portrainer/
+sudo docker-compose up
+docker stop e6c26594c59b5ab118e7b663afbabe897cd08500497adb6f202ad0c9c49c437b
+sudo docker stop e6c26594c59b5ab118e7b663afbabe897cd08500497adb6f202ad0c9c49c437b
+sudo docker-compose up
+sudo docker ps
+e6c26594c59b5ab118e7b663afbabe897cd08500497adb6f202ad0c9c49c437b
+docker container rm {container_running_id} --force e6c26594c59b5ab118e7b663afbabe897cd08500497adb6f202ad0c9c49c437b
+sudo docker container rm e6c26594c59b5ab118e7b663afbabe897cd08500497adb6f202ad0c9c49c437b --force
+sudo docker-compose up
+sudo su
