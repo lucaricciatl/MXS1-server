@@ -1,0 +1,41 @@
+2022-12-30 14:24:07.893 [info] Extension host agent started.
+2022-12-30 14:24:08.172 [info] [127.0.0.1][d01354b4][ManagementConnection] New connection established.
+2022-12-30 14:24:08.195 [info] [127.0.0.1][c79ee360][ExtensionHostConnection] New connection established.
+2022-12-30 14:24:08.220 [info] [127.0.0.1][c79ee360][ExtensionHostConnection] <3316> Launched Extension Host Process.
+2022-12-30 14:24:12.002 [info] [127.0.0.1][d01354b4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-30 14:24:12.051 [info] [127.0.0.1][c79ee360][ExtensionHostConnection] <3316> Extension Host Process exited with code: 0, signal: null.
+2022-12-30 14:24:12.053 [info] Last EH closed, waiting before shutting down
+2022-12-30 14:24:18.820 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-30 14:24:18.820 [info] Cancelling previous shutdown timeout
+2022-12-30 14:24:18.920 [info] [127.0.0.1][ba2f0707][ManagementConnection] New connection established.
+2022-12-30 14:24:18.938 [info] [127.0.0.1][0c080e55][ExtensionHostConnection] New connection established.
+2022-12-30 14:24:18.960 [info] [127.0.0.1][0c080e55][ExtensionHostConnection] <3454> Launched Extension Host Process.
+2022-12-30 14:24:22.554 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateIcon (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:2715)
+    at Object.call (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-30 14:24:22.557 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/atled/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-30 14:29:18.824 [info] New EH opened, aborting shutdown

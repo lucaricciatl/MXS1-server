@@ -1,0 +1,26 @@
+
+services:
+  nginx:
+    image: nginx:stable-alpine
+    ports:
+     - 80:80
+     - 443:443
+  wordpress:
+    image: wordpress
+    links:
+     - mariadb:mysql
+    environment:
+     - WORDPRESS_DB_PASSWORD=password
+     - WORDPRESS_DB_USER=root
+    ports:
+     - "8081:8081"
+    volumes:
+     - ./nginx/:/etc/nginx/conf.d/
+     - ./html:/var/www/html:delegated
+  mariadb:
+    image: mariadb
+    environment:
+     - MYSQL_ROOT_PASSWORD=password
+     - MYSQL_DATABASE=wordpress
+    volumes:
+     - ./database:/var/lib/mysql

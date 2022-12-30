@@ -1,0 +1,24 @@
+2022-12-29 22:20:28.222 [info] Extension host agent started.
+2022-12-29 22:20:28.365 [info] Started initializing default profile extensions in extensions installation folder. file:///home/atled/.vscode-server/extensions
+2022-12-29 22:20:28.404 [info] [127.0.0.1][98dbaa96][ManagementConnection] New connection established.
+2022-12-29 22:20:28.410 [info] [127.0.0.1][719f5173][ExtensionHostConnection] New connection established.
+2022-12-29 22:20:29.100 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/atled/.vscode-server/extensions
+2022-12-29 22:20:32.328 [info] [127.0.0.1][719f5173][ExtensionHostConnection] <6939> Launched Extension Host Process.
+2022-12-29 22:20:38.165 [info] [127.0.0.1][98dbaa96][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-29 22:20:38.217 [info] [127.0.0.1][719f5173][ExtensionHostConnection] <6939> Extension Host Process exited with code: 0, signal: null.
+2022-12-29 22:20:38.219 [info] Last EH closed, waiting before shutting down
+2022-12-29 22:20:47.718 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-29 22:20:47.718 [info] Cancelling previous shutdown timeout
+2022-12-29 22:20:47.816 [info] [127.0.0.1][71f7d26c][ManagementConnection] New connection established.
+2022-12-29 22:20:47.838 [info] [127.0.0.1][d965f74a][ExtensionHostConnection] New connection established.
+2022-12-29 22:20:47.858 [info] [127.0.0.1][d965f74a][ExtensionHostConnection] <7079> Launched Extension Host Process.
+2022-12-29 22:25:47.720 [info] New EH opened, aborting shutdown
+2022-12-29 22:45:43.591 [info] [127.0.0.1][0e9ca5e5][ManagementConnection] New connection established.
+2022-12-29 22:45:43.596 [info] [127.0.0.1][336c3d20][ExtensionHostConnection] New connection established.
+2022-12-29 22:45:43.619 [info] [127.0.0.1][336c3d20][ExtensionHostConnection] <8057> Launched Extension Host Process.
+2022-12-29 23:09:41.090 [info] [127.0.0.1][71f7d26c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-29 23:09:41.152 [info] [127.0.0.1][d965f74a][ExtensionHostConnection] <7079> Extension Host Process exited with code: 0, signal: null.
+2022-12-29 23:48:45.121 [info] [127.0.0.1][0e9ca5e5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-29 23:48:45.182 [info] [127.0.0.1][336c3d20][ExtensionHostConnection] <8057> Extension Host Process exited with code: 0, signal: null.
+2022-12-29 23:48:45.182 [info] Last EH closed, waiting before shutting down
+2022-12-29 23:53:45.185 [info] Last EH closed, shutting down
